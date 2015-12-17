@@ -1,11 +1,7 @@
 #!/bin/bash
-
 sudo apt-get install zsh
 sudo apt-get vim
 sudo apt-get htop
-
-git clone git@github.com:davidvuong/dotfiles-raspi.git ~/dotfiles
-cd ~/dotfiles
 
 zsh
 git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"
