@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt-get install zsh
-sudo apt-get vim
-sudo apt-get htop
+sudo apt-get install vim
+sudo apt-get install htop
 
 zsh
 git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"
