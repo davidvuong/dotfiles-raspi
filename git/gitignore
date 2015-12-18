@@ -1,0 +1,84 @@
+# Logs and databases:
+*.log
+*.sqlite
+
+# Packages:
+*.7z
+*.dmg
+*.gz
+*.tar
+*.zip
+*.rar
+*.iso
+
+# etags and ctags:
+TAGS
+tags
+
+# Vim:
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# diffmerge .orig files:
+*.orig
+
+# Python specific:
+*.py[cod]
+
+__pycache__
+.coverage
+
+# C specific:
+*.o
+*.a
+
+*.dll
+*.so
+*.so.*
+*.dylib
+
+*.exe
+*.out
+*.app
+
+# Java specific:
+*.class
+
+*.jar
+*.war
+*.ear
+
+# LaTeX specific:
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo

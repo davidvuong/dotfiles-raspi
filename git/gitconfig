@@ -1,0 +1,20 @@
+[color]
+    ui = true
+
+[alias]
+    s = status
+    graph = log --graph
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+
+[format]
+    pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+
+[push]
+    default = simple
+
+[merge]
+    tool = diffmerge
