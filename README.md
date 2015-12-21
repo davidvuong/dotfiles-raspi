@@ -18,3 +18,4 @@ sh ./install.sh
 * Micro SD cards (https://www.raspberrypi.org/documentation/installation/sd-cards.md)
 * Install NOOBS (https://www.raspberrypi.org/documentation/installation/noobs.md)
 * Enable SSH (https://www.raspberrypi.org/documentation/remote-access/ssh/)
+* Turn into a NAS (http://www.howtogeek.com/139433/how-to-turn-a-raspberry-pi-into-a-low-power-network-storage-device/)
