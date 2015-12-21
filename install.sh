@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
+sudo apt-get update
+
 sudo apt-get install zsh
 sudo apt-get install vim
 sudo apt-get install htop
 sudo apt-get install ntfs-3g
+sudo apt-get install hfsprogs
 sudo apt-get install samba samba-common-bin
 
 # Install and configure ZSH (using my custom Prezto fork).
