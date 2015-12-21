@@ -6,8 +6,8 @@ This repository is a cut-down version of my Mac OS X dotfiles found [here](https
 
 ## Download & Install
 
-```bash
-git clone git@github.com:davidvuong/dotfiles-raspi.git ~/dotfiles
+```
+git clone https://github.com/davidvuong/dotfiles-raspi.git ~/dotfiles
 cd ~/dotfiles
 
 sh ./install.sh
