@@ -11,11 +11,6 @@ Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
 
-" Syntastic needs flake8|pyflakes|pylint for python files. I'm using
-" flake8 so just `pip install flake8` before using syntastic.
-Bundle 'scrooloose/syntastic'
-Bundle 'vim-flake8'
-
 " Displaying ANSI colours inside VIM.
 Bundle 'vim-scripts/AnsiEsc.vim.git'
 
