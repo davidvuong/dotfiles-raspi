@@ -6,7 +6,7 @@ sudo apt-get install zsh
 sudo apt-get install vim
 sudo apt-get install htop
 sudo apt-get install ntfs-3g
-sudo apt-get install hfsprogs
+sudo apt-get install hfsplus hfsutils hfsprogs
 sudo apt-get install samba samba-common-bin
 
 # Install and configure ZSH (using my custom Prezto fork).
@@ -40,5 +40,6 @@ ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 # Configure Samba server my custom rules.
 sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.orig
 sudo ln -s ~/dotfiles/smb.conf /etc/samba/smb.conf
+sudo /etc/init.d/samba restart
 
 sudo mkdir -p /media/{hdd_1,hdd_2,hdd_3,hdd_4}
