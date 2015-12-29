@@ -8,6 +8,7 @@ sudo apt-get install htop
 sudo apt-get install ntfs-3g
 sudo apt-get install hfsplus hfsutils hfsprogs
 sudo apt-get install samba samba-common-bin
+sudo apt-get install xclip
 
 # Install and configure ZSH (using my custom Prezto fork).
 zsh
