@@ -10,18 +10,8 @@ sudo apt-get install hfsplus hfsutils hfsprogs
 sudo apt-get install samba samba-common-bin
 sudo apt-get install xclip
 
-# Install and configure ZSH (using my custom Prezto fork).
-zsh
-git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"
-
-setopt EXTENDED_GLOB
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-    ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
-
-ln -s ~/.zprezto/zsh_nocorrect ~/zsh_nocorrect
-chsh -s /bin/zsh
-source ~/.zshrc
+# Install zsh.
+./install_zsh.zsh
 
 # Use my standard vim bindings, configurating and addons.
 ln -s ~/dotfiles/vim ~/.vim
