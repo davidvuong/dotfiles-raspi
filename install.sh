@@ -2,13 +2,13 @@
 
 sudo apt-get update
 
-sudo apt-get install zsh
-sudo apt-get install vim
-sudo apt-get install htop
-sudo apt-get install ntfs-3g
-sudo apt-get install hfsplus hfsutils hfsprogs
-sudo apt-get install samba samba-common-bin
-sudo apt-get install xclip
+sudo apt-get -y install zsh
+sudo apt-get -y install vim
+sudo apt-get -y install htop
+sudo apt-get -y install ntfs-3g
+sudo apt-get -y install hfsplus hfsutils hfsprogs
+sudo apt-get -y install samba samba-common-bin
+sudo apt-get -y install xclip
 
 # Install zsh.
 sudo ./install_zsh.zsh
