@@ -11,7 +11,7 @@ sudo apt-get install samba samba-common-bin
 sudo apt-get install xclip
 
 # Install zsh.
-./install_zsh.zsh
+sudo ./install_zsh.zsh
 
 # Use my standard vim bindings, configurating and addons.
 ln -s ~/dotfiles/vim ~/.vim
@@ -21,7 +21,7 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +BundleInstall +qall
 
 # Install Python related modules.
-pip install --upgrade pip
+sudo pip install --upgrade pip
 sudo pip install -r requirements.txt
 
 ln -s ~/dotfiles/dircolors ~/.dircolors
