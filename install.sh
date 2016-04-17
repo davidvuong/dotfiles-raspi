@@ -32,7 +32,7 @@ vim +BundleInstall +qall
 
 # Install Python related modules.
 pip install --upgrade pip
-sudo pip install -r ~/dotfiles/requirements.txt
+sudo pip install -r requirements.txt
 
 ln -s ~/dotfiles/dircolors ~/.dircolors
 ln -s ~/dotfiles/git/gitignore ~/.gitignore

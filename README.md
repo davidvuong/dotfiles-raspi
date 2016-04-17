@@ -6,11 +6,18 @@ This repository is a cut-down version of my Mac OS X dotfiles found [here](https
 
 In addition to just being a dotfiles repo, it's also a place where I document most of what I learn along the way. You can find those [here](https://github.com/davidvuong/dotfiles-raspi/tree/master/docs) or as comments in config files.
 
-## Download & Install
+## Getting Started
 
-```
-git clone https://github.com/davidvuong/dotfiles-raspi.git ~/dotfiles
-cd ~/dotfiles
+1. Download [NOOBS](https://www.raspberrypi.org/downloads/noobs/) and Raspbian from the RaspberryPI official website.
+1. Clone the project from GitHub:
 
-sh ./install.sh
-```
+  ```
+  git clone https://github.com/davidvuong/dotfiles-raspi.git ~/dotfiles
+  cd ~/dotfiles
+  ```
+
+1. Run the install script:
+
+  ```
+  sh ./install.sh
+  ```
