@@ -9,6 +9,19 @@ sudo apt-get -y install ntfs-3g
 sudo apt-get -y install hfsplus hfsutils hfsprogs
 sudo apt-get -y install samba samba-common-bin
 sudo apt-get -y install xclip
+sudo apt-get -y install build-essential
+sudo apt-get -y install cmake
+sudo apt-get -y install pkg-config
+sudo apt-get -y install python-dev
+
+# OpenCV required GUI libraries.
+sudo apt-get -y install libgtk2.0-dev
+
+# OpenCV required video libraries.
+sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+
+# OpenCV required libraries for optimisations.
+sudo apt-get -y install libatlas-base-dev gfortran
 
 # Install zsh.
 sudo ./install_zsh.zsh
