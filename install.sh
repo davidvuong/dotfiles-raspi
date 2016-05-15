@@ -13,6 +13,7 @@ sudo apt-get -y install build-essential
 sudo apt-get -y install cmake
 sudo apt-get -y install pkg-config
 sudo apt-get -y install python-dev
+sudo apt-get -y install libx264-dev
 
 # OpenCV required GUI libraries.
 sudo apt-get -y install libgtk2.0-dev
